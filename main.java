@@ -1,16 +1,13 @@
 import java.io.PrintWriter;
 public class main {
 public static void main(String[] args) {
- String input_file="\\testfiles\\33.png";
- String output_file="\\testfiles\\33";
+ String input_file="\\images\\33.png";
+ String output_file="\\images\\33";
  String tesseract_install_path="Tesseract-OCR\\tesseract";
- String[] command =
-    {
-        "cmd",
-    };
-    Process p;
+ String command = "cmd"    
+    
  try {
- p = Runtime.getRuntime().exec(command);
+ Process p = Runtime.getRuntime().exec(command);
         new Thread(new sync(p.getErrorStream(), System.err)).start();
         new Thread(new sync(p.getInputStream(), System.out)).start();
         PrintWriter stdin = new PrintWriter(p.getOutputStream());

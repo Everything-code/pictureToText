@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ScrollView">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Tesseract-OCR/java/ScrollView.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

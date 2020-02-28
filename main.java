@@ -1,10 +1,10 @@
 import java.io.PrintWriter;
 public class main {
 public static void main(String[] args) {
- String input_file="\\images\\33.png";
- String output_file="\\images\\33";
- String tesseract_install_path="Tesseract-OCR\\tesseract";
- String command = "cmd"    
+ String input_file="C:\\Users\\DeV_NEN\\Desktop\\Project\\Git\\pictureToText\\out\\production\\pictureToText\\images\\44.png";
+ String output_file="C:\\Users\\DeV_NEN\\Desktop\\Project\\Git\\pictureToText\\out\\production\\pictureToText\\images\\44";
+ String tesseract_install_path="C:\\Program Files (x86)\\Tesseract-OCR\\tesseract";
+ String command = "cmd";
     
  try {
  Process p = Runtime.getRuntime().exec(command);
@@ -18,7 +18,7 @@ public static void main(String[] args) {
         System.out.println();
         System.out.println();
         System.out.println();
-        System.out.println(ReadFile.readFile(output_file+".txt"));
+        System.out.println(read_File.readFile(output_file+".txt"));
     } catch (Exception e) {
  e.printStackTrace();
     }
